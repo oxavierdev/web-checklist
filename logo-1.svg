@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <!-- Background Circle -->
+  <circle cx="100" cy="100" r="95" fill="url(#gradient)" />
+  
+  <!-- Gradient Definition -->
+  <defs>
+    <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f97316;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#dc2626;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Wrench Icon -->
+  <path d="M140 60 L160 80 L120 120 L100 100 Z" fill="white" opacity="0.9"/>
+  <circle cx="145" cy="65" r="8" fill="white" opacity="0.9"/>
+  
+  <!-- Gear Icon -->
+  <g transform="translate(60, 100)">
+    <circle cx="0" cy="0" r="25" fill="white" opacity="0.9"/>
+    <circle cx="0" cy="0" r="12" fill="url(#gradient)"/>
+    <rect x="-4" y="-32" width="8" height="10" fill="white" opacity="0.9"/>
+    <rect x="-4" y="22" width="8" height="10" fill="white" opacity="0.9"/>
+    <rect x="-32" y="-4" width="10" height="8" fill="white" opacity="0.9"/>
+    <rect x="22" y="-4" width="10" height="8" fill="white" opacity="0.9"/>
+  </g>
+  
+  <!-- Checkmark -->
+  <path d="M130 140 L145 155 L170 125" stroke="white" stroke-width="8" fill="none" stroke-linecap="round" stroke-linejoin="round" opacity="0.9"/>
+</svg>
